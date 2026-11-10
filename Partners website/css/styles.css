@@ -317,3 +317,8 @@ html.reveal-ready .story-card:not(.is-visible) { opacity: 0; transform: translat
   background: var(--page);
 }
 
+footer {
+  background-color: var(--page);
+  position: relative;
+  z-index: 2;
+}
