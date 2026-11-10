@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 640" role="img" aria-labelledby="title desc">
-  <title id="title">Hair stylist portrait</title>
-  <desc id="desc">Stylized portrait placeholder</desc>
-  <rect width="700" height="640" fill="#F5F1EC"/>
-  <circle cx="350" cy="220" r="120" fill="#F1D3BA"/>
-  <path d="M224 580c28-132 109-204 223-204 83 0 149 54 174 174H224Z" fill="#252525"/>
-  <path d="M290 170c18-48 52-76 96-76 54 0 92 37 102 94-32-17-65-22-95-20-35 1-73 14-103 32Z" fill="#252525"/>
-</svg>

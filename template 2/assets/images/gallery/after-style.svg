@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
-  <title id="title">After styling</title>
-  <desc id="desc">After styling comparison showing a polished haircut</desc>
-  <rect width="1000" height="620" fill="#F7F3ED"/>
-  <circle cx="420" cy="220" r="140" fill="#F1D3BA"/>
-  <path d="M270 490c58-170 125-254 260-254 104 0 180 53 238 173v166H270Z" fill="#252525"/>
-  <path d="M325 202c36-48 79-72 138-72 63 0 121 32 156 86l-71 54c-22-21-49-34-78-34-30 0-60 12-91 39l-54-73Z" fill="#C47B61"/>
-  <path d="M380 320h110l-19 93H398l-18-93Z" fill="#F7F3ED"/>
-</svg>
