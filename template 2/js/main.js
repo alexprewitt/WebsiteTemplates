@@ -23,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
       sections.forEach((section) => {
         const rect = section.getBoundingClientRect();
-        if (rect.top <= 150 && rect.bottom >= 150) {
+        if (rect.top <= 180 && rect.bottom >= 180) {
           currentId = section.id;
         }
       });
 
       navLinks.forEach((link) => {
-        const linkHref = link.getAttribute("href");
-        const isActive = linkHref === `#${currentId}`;
+        const href = link.getAttribute("href");
+        const isActive = href === `#${currentId}`;
         link.classList.toggle("active", isActive);
         if (isActive) {
           link.setAttribute("aria-current", "page");
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       },
       {
-        threshold: 0.16
+        threshold: 0.14
       }
     );
 
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const filterButtons = document.querySelectorAll(".filter-btn");
-  const galleryItems = document.querySelectorAll(".gallery-item");
+  const galleryItems = document.querySelectorAll(".project-card");
 
   filterButtons.forEach((button) => {
     button.addEventListener("click", function () {
@@ -94,63 +94,40 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const galleryModal = document.getElementById("galleryModal");
-  if (galleryModal) {
-    galleryModal.addEventListener("show.bs.modal", function (event) {
+  const projectModal = document.getElementById("projectModal");
+  if (projectModal) {
+    projectModal.addEventListener("show.bs.modal", function (event) {
       const trigger = event.relatedTarget;
       if (!trigger) return;
 
-      const title = trigger.dataset.title || "Gallery item";
+      const title = trigger.dataset.title || "Project";
+      const category = trigger.dataset.category || "Project";
       const caption = trigger.dataset.caption || "";
-      const modalTitle = galleryModal.querySelector(".modal-title");
-      const modalImage = galleryModal.querySelector(".modal-image");
-      const modalCaption = galleryModal.querySelector(".modal-caption");
+      const image = trigger.dataset.image || trigger.querySelector("img")?.src || "";
+
+      const modalTitle = projectModal.querySelector(".project-modal-title");
+      const modalImage = projectModal.querySelector(".project-modal-image");
+      const modalMeta = projectModal.querySelector(".project-modal-meta");
+      const modalCaption = projectModal.querySelector(".project-modal-caption");
 
       modalTitle.textContent = title;
-      modalImage.src = trigger.currentSrc || trigger.src;
+      modalMeta.textContent = category;
+      modalImage.src = image;
       modalImage.alt = title;
       modalCaption.textContent = caption;
     });
   }
 
-  const comparisonWrap = document.querySelector("[data-before-after]");
-  if (comparisonWrap) {
-    const rangeInput = comparisonWrap.querySelector("input[type='range']");
-    const overlay = comparisonWrap.querySelector(".comparison-overlay");
-    const handle = comparisonWrap.querySelector(".comparison-handle");
-
-    if (rangeInput && overlay && handle) {
-      const updateSlider = function () {
-        const value = Number(rangeInput.value);
-        overlay.style.width = `${value}%`;
-        handle.style.left = `${value}%`;
-      };
-
-      updateSlider();
-      rangeInput.addEventListener("input", updateSlider);
-    }
-  }
-
-  const bookingButtons = document.querySelectorAll(".booking-select");
-  const bookingTypeSelect = document.getElementById("booking-type");
-  bookingButtons.forEach((button) => {
-    button.addEventListener("click", function () {
-      if (!bookingTypeSelect) return;
-      bookingTypeSelect.value = button.dataset.bookingType;
-      bookingTypeSelect.scrollIntoView({ behavior: "smooth", block: "center" });
-    });
-  });
-
-  const bookingForm = document.querySelector(".booking-form");
-  const bookingStatus = document.getElementById("booking-status");
-  if (bookingForm && bookingStatus) {
-    bookingForm.addEventListener("submit", function (event) {
+  const quoteForm = document.getElementById("quote-form");
+  const quoteStatus = document.getElementById("quote-status");
+  if (quoteForm && quoteStatus) {
+    quoteForm.addEventListener("submit", function (event) {
       event.preventDefault();
-      const message = window.siteConfig && window.siteConfig.bookingStatusMessage
-        ? window.siteConfig.bookingStatusMessage
-        : "Online appointment requests are not enabled yet in this demo template.";
-      bookingStatus.textContent = message;
-      bookingForm.reset();
+      const message = window.siteConfig && window.siteConfig.quoteStatusMessage
+        ? window.siteConfig.quoteStatusMessage
+        : "This demonstration form is not connected to a live submission service.";
+      quoteStatus.textContent = message;
+      quoteForm.reset();
     });
   }
 
