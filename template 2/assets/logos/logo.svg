@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
-  <title id="title">The Grooming Studio logo</title>
-  <desc id="desc">A monogram in warm neutral tones</desc>
-  <rect width="180" height="180" rx="40" fill="#F7F3ED"/>
-  <path d="M54 120V58h19l23 34 23-34h19v62h-18V88l-19 28h-10L72 88v32H54Z" fill="#252525"/>
-  <circle cx="128" cy="44" r="16" fill="#C47B61"/>
-</svg>

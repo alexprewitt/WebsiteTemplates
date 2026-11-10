@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
-  <title id="title">Modern fade</title>
-  <desc id="desc">A modern fade haircut</desc>
-  <rect width="700" height="520" fill="#F4EFE9"/>
-  <circle cx="355" cy="175" r="106" fill="#F1D3BA"/>
-  <path d="M250 430c42-114 95-162 182-162 76 0 137 39 176 118v86H250Z" fill="#252525"/>
-  <path d="M340 154h140l-24 82H364l-24-82Z" fill="#C47B61"/>
-  <path d="M288 224h130l-28 96H316l-28-96Z" fill="#F7F3ED" opacity="0.9"/>
-</svg>
