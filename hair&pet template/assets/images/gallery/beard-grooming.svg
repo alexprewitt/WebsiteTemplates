@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
+  <title id="title">Beard grooming</title>
+  <desc id="desc">Close-up beard grooming result</desc>
+  <rect width="700" height="520" fill="#F6F2EC"/>
+  <circle cx="350" cy="180" r="110" fill="#F1D3BA"/>
+  <path d="M250 430c34-101 89-152 170-152 64 0 127 41 174 116v108H250Z" fill="#252525"/>
+  <path d="M322 197c0-34 16-56 44-56 25 0 47 21 47 52v15h-91v-11Z" fill="#C47B61"/>
+  <path d="M306 244h92l-7 81h-78l-7-81Z" fill="#F7F3ED"/>
+</svg>

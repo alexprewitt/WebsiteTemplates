@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Before styling</title>
+  <desc id="desc">Before styling comparison image showing an untidy look</desc>
+  <rect width="1000" height="620" fill="#F5F0EA"/>
+  <circle cx="420" cy="220" r="140" fill="#F1D3BA"/>
+  <path d="M270 490c58-170 125-254 260-254 104 0 180 53 238 173v166H270Z" fill="#252525"/>
+  <path d="M300 220c30-60 75-90 142-90 53 0 115 24 154 86l-52 45c-29-23-58-35-96-35-31 0-54 11-87 35l-61-41Z" fill="#A7B8A1"/>
+</svg>

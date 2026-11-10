@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Hair service</title>
+  <desc id="desc">A groomed hairstyle concept</desc>
+  <rect width="800" height="520" fill="#F6F2EC"/>
+  <circle cx="380" cy="186" r="110" fill="#F1D3BA"/>
+  <path d="M254 448c42-118 95-170 186-170 76 0 135 32 181 111v131H254Z" fill="#252525"/>
+  <path d="M332 176c18-56 62-86 120-86 55 0 96 24 120 71l-42 35c-25-21-48-31-81-32-26-1-53 10-77 30l-40-18Z" fill="#C47B61"/>
+  <path d="M495 252l74 78-52 44-86-82Z" fill="#F7F3ED"/>
+  <path d="M208 280c30 26 60 49 102 61 33 10 75 11 117 4-20 44-52 72-103 85-54 13-123-6-170-64 17-35 34-63 54-86Z" fill="#A7B8A1" opacity="0.8"/>
+</svg>

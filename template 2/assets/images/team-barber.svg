@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 640" role="img" aria-labelledby="title desc">
+  <title id="title">Barber portrait</title>
+  <desc id="desc">Stylized barber portrait placeholder</desc>
+  <rect width="700" height="640" fill="#F7F3ED"/>
+  <circle cx="350" cy="220" r="120" fill="#F1D3BA"/>
+  <path d="M214 580c34-130 94-196 186-196 97 0 174 67 193 196H214Z" fill="#C47B61"/>
+  <path d="M296 166c22-52 56-74 104-74 50 0 90 27 108 83-32-16-63-24-98-24-31 0-66 6-114 15Z" fill="#252525"/>
+</svg>

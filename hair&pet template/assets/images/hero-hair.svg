@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 760" role="img" aria-labelledby="title desc">
+  <title id="title">Hair styling portrait</title>
+  <desc id="desc">Stylized portrait of a client with a modern haircut</desc>
+  <rect width="800" height="760" fill="#F4EFE9"/>
+  <circle cx="430" cy="202" r="120" fill="#F1D3BA"/>
+  <path d="M300 650c40-110 116-168 224-168 80 0 132 34 164 95v143H300Z" fill="#252525"/>
+  <path d="M395 180c0-60 38-105 88-105 46 0 84 42 84 98v32c0 54-38 96-84 96-56 0-88-48-88-121Z" fill="#2B2B2B"/>
+  <path d="M335 290c28 12 61 26 90 31 35 6 70 7 102 0 42-9 85-28 120-61l27 43c-32 46-66 78-102 95-52 25-98 29-149 19-44-9-78-27-104-51l-14-35Z" fill="#C47B61"/>
+  <path d="M505 280l72 80-42 56-72-70Z" fill="#F7F3ED" opacity="0.9"/>
+  <rect x="0" y="0" width="800" height="760" fill="none"/>
+</svg>

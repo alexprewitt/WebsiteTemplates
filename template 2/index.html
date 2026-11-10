@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Grooming Studio offers premium haircuts, styling, and pet grooming services with a boutique, welcoming experience."
+    />
+    <meta name="theme-color" content="#252525" />
+    <meta property="og:title" content="The Grooming Studio" />
+    <meta
+      property="og:description"
+      content="Fresh Cuts. Happy Pets. Exceptional Care."
+    />
+    <meta property="og:type" content="website" />
+    <title>The Grooming Studio | Fresh Cuts. Happy Pets. Exceptional Care.</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <div class="announcement-bar">
+      <div class="container text-center">
+        <p class="mb-0">Looking fresh starts here. <a href="#booking">Book your next grooming appointment.</a></p>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="container py-3">
+        <div class="brand-row text-center">
+          <a href="#home" class="brand-mark" aria-label="The Grooming Studio home">
+            <img src="assets/logos/logo.svg" alt="The Grooming Studio logo" class="brand-logo" />
+            <div class="brand-copy">
+              <span class="brand-name">THE GROOMING STUDIO</span>
+              <span class="brand-tagline">Fresh Cuts. Happy Pets. Exceptional Care.</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg sticky-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand d-lg-none" href="#home">The Grooming Studio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav mx-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+          <a class="btn btn-book" href="#booking">Book Appointment</a>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <!-- ======================================
+           HERO SECTION - START
+      ======================================= -->
+      <section id="home" class="hero-section section-shell">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 hero-copy reveal">
+              <p class="eyebrow">YOUR NEW FAVORITE GROOMING STUDIO</p>
+              <h1>Great Hair. Happy Tails.</h1>
+              <p class="lead">
+                Whether it's a fresh haircut or a little extra pampering for your pet, we make every visit comfortable, personal, and worth looking forward to.
+              </p>
+              <div class="cta-row d-flex flex-column flex-sm-row gap-3">
+                <a href="#booking" class="btn btn-primary btn-lg">Book an Appointment</a>
+                <a href="#services" class="btn btn-secondary btn-lg">Explore Services</a>
+              </div>
+              <div class="mini-stats">
+                <div>
+                  <strong>1:1</strong>
+                  <span>Personal attention</span>
+                </div>
+                <div>
+                  <strong>4.9/5</strong>
+                  <span>Guest experience</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 hero-visual reveal">
+              <div class="hero-collage">
+                <div class="image-card image-card-main">
+                  <img src="assets/images/hero-hair.svg" alt="Stylish haircut portrait" />
+                  <span class="image-tag tag-hair">Hair Styling</span>
+                </div>
+                <div class="image-card image-card-secondary">
+                  <img src="assets/images/hero-pet.svg" alt="Freshly groomed dog portrait" />
+                  <span class="image-tag tag-pet">Pet Grooming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-selector section-shell" aria-labelledby="selector-heading">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Pamper your routine</p>
+            <h2 id="selector-heading">Who Are We Pampering Today?</h2>
+            <p>Explore our grooming services for you and your four-legged companions.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-6 reveal">
+              <a href="#hair-services" class="service-choice service-choice-hair h-100">
+                <div class="service-choice-media">
+                  <img src="assets/images/haircut-service.svg" alt="Hair styling concept" loading="lazy" />
+                </div>
+                <div class="service-choice-body">
+                  <div class="service-choice-header">
+                    <span class="choice-icon"><i class="bi bi-scissors"></i></span>
+                    <h3>Haircuts & Styling</h3>
+                  </div>
+                  <p>Fresh cuts, polished finishes, and personal styling for every routine.</p>
+                  <span class="choice-link">Explore Hair Services <i class="bi bi-arrow-right"></i></span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-6 reveal">
+              <a href="#pet-services" class="service-choice service-choice-pet h-100">
+                <div class="service-choice-media">
+                  <img src="assets/images/pet-grooming.svg" alt="Pet grooming concept" loading="lazy" />
+                </div>
+                <div class="service-choice-body">
+                  <div class="service-choice-header">
+                    <span class="choice-icon"><i class="bi bi-patch-check"></i></span>
+                    <h3>Pet Grooming</h3>
+                  </div>
+                  <p>Comfort-first treatments and finishing touches that help pets feel their best.</p>
+                  <span class="choice-link">Explore Pet Services <i class="bi bi-arrow-right"></i></span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section section-shell alt-bg">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 reveal">
+              <div class="about-visual">
+                <img src="assets/images/about-studio.svg" alt="Studio interior with grooming station" />
+                <div class="floating-card">
+                  <span>Personalized care</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 reveal">
+              <p class="eyebrow">ABOUT OUR STUDIO</p>
+              <h2>A Little Style. A Lot of Care.</h2>
+              <p>
+                At The Grooming Studio, we believe that every client deserves personalized attention, whether they're stopping by for a fresh style or bringing their pet in for some well-deserved care.
+              </p>
+              <ul class="value-list">
+                <li>Personalized Attention</li>
+                <li>Comfortable Experience</li>
+                <li>Quality-Focused Service</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hair-services" class="hair-services section-shell">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Hair services</p>
+            <h2>A Fresh Look Starts Here.</h2>
+            <p>From quick trims to complete transformations, explore services designed to help you look and feel your best.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card hair-card h-100">
+                <div class="card-icon"><i class="bi bi-scissors"></i></div>
+                <h3>Classic Haircut</h3>
+                <p>Clean, polished cuts for a refined everyday finish.</p>
+                <div class="service-meta">
+                  <span class="price">From $35</span>
+                  <span class="time">35–45 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card hair-card h-100">
+                <div class="card-icon"><i class="bi bi-slash-circle"></i></div>
+                <h3>Fade & Precision Cut</h3>
+                <p>Sharp detailing and tailored shaping that suits your style.</p>
+                <div class="service-meta">
+                  <span class="price">From $42</span>
+                  <span class="time">40–60 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card hair-card h-100">
+                <div class="card-icon"><i class="bi bi-droplet"></i></div>
+                <h3>Hair Wash & Styling</h3>
+                <p>Refresh your look with a wash, finish, and styling session.</p>
+                <div class="service-meta">
+                  <span class="price">From $30</span>
+                  <span class="time">20–30 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card hair-card h-100">
+                <div class="card-icon"><i class="bi bi-person-check"></i></div>
+                <h3>Beard Trim & Shaping</h3>
+                <p>Defined lines and a clean finish that feels effortless.</p>
+                <div class="service-meta">
+                  <span class="price">From $22</span>
+                  <span class="time">15–25 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card hair-card h-100">
+                <div class="card-icon"><i class="bi bi-emoji-smile"></i></div>
+                <h3>Children's Haircut</h3>
+                <p>Comfortable, patient-first styling tailored for younger clients.</p>
+                <div class="service-meta">
+                  <span class="price">From $28</span>
+                  <span class="time">20–35 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card hair-card h-100">
+                <div class="card-icon"><i class="bi bi-stars"></i></div>
+                <h3>Special Occasion Styling</h3>
+                <p>Event-ready hair that looks polished, elegant, and photo-ready.</p>
+                <div class="service-meta">
+                  <span class="price">From $60</span>
+                  <span class="time">45–75 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pet-services" class="pet-services section-shell alt-bg">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Pet care</p>
+            <h2>Because They Deserve a Little Pampering, Too.</h2>
+            <p>From a refreshing bath to a complete grooming session, discover thoughtful services for your furry companions.</p>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card pet-card h-100">
+                <div class="card-icon"><i class="bi bi-bucket"></i></div>
+                <h3>Bath & Brush</h3>
+                <p>Freshen up coats, tidy textures, and help pets feel comfortable again.</p>
+                <div class="service-meta">
+                  <span class="price">From $35</span>
+                  <span class="time">30–45 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card pet-card h-100">
+                <div class="card-icon"><i class="bi bi-gift"></i></div>
+                <h3>Full Grooming Package</h3>
+                <p>Bath, brush, trim, and finishing touches for a polished feel.</p>
+                <div class="service-meta">
+                  <span class="price">From $60</span>
+                  <span class="time">60–90 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card pet-card h-100">
+                <div class="card-icon"><i class="bi bi-award"></i></div>
+                <h3>Breed-Specific Haircut</h3>
+                <p>Tailored styling for coat type, breed profile, and desired finish.</p>
+                <div class="service-meta">
+                  <span class="price">From $65</span>
+                  <span class="time">60–120 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card pet-card h-100">
+                <div class="card-icon"><i class="bi bi-emoji-smile"></i></div>
+                <h3>Nail Trimming</h3>
+                <p>Care for paws and comfort with a quick, tidy nail maintenance visit.</p>
+                <div class="service-meta">
+                  <span class="price">From $18</span>
+                  <span class="time">10–20 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card pet-card h-100">
+                <div class="card-icon"><i class="bi bi-soundwave"></i></div>
+                <h3>Ear Cleaning</h3>
+                <p>Gentle ear cleaning to help pets stay comfortable and tidy.</p>
+                <div class="service-meta">
+                  <span class="price">From $15</span>
+                  <span class="time">10–15 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="service-card pet-card h-100">
+                <div class="card-icon"><i class="bi bi-heart"></i></div>
+                <h3>Puppy Introduction Groom</h3>
+                <p>A calm, reassuring introduction to grooming for young pets.</p>
+                <div class="service-meta">
+                  <span class="price">From $40</span>
+                  <span class="time">30–45 min</span>
+                </div>
+                <a href="#booking" class="book-link">Book This Service</a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="why-us" class="why-section section-shell">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Why choose us</p>
+            <h2>The Little Things Make the Difference.</h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="feature-card h-100">
+                <div class="feature-icon"><i class="bi bi-calendar2-check"></i></div>
+                <h3>Personalized Appointments</h3>
+                <p>Every visit is tailored to your preferences, routine, and comfort.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="feature-card h-100">
+                <div class="feature-icon"><i class="bi bi-house-heart"></i></div>
+                <h3>A Welcoming Environment</h3>
+                <p>We create a calm, clean space where clients feel relaxed and cared for.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="feature-card h-100">
+                <div class="feature-icon"><i class="bi bi-star"></i></div>
+                <h3>Careful Attention to Detail</h3>
+                <p>We focus on precise finishing touches and a polished final result.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 reveal">
+              <div class="feature-card h-100">
+                <div class="feature-icon"><i class="bi bi-chat-dots"></i></div>
+                <h3>Friendly Communication</h3>
+                <p>Clear guidance and thoughtful updates help everything feel easy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section section-shell alt-bg">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Results</p>
+            <h2>The Results Speak for Themselves.</h2>
+            <p>Take a look at our styles, transformations, and freshly groomed companions.</p>
+          </div>
+
+          <div class="gallery-controls reveal" aria-label="Gallery filters">
+            <button class="filter-btn active" type="button" data-filter="all">All</button>
+            <button class="filter-btn" type="button" data-filter="haircuts">Haircuts</button>
+            <button class="filter-btn" type="button" data-filter="pet-grooming">Pet Grooming</button>
+          </div>
+
+          <div class="row g-4 gallery-grid reveal">
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="haircuts">
+              <figure>
+                <img src="assets/images/gallery/classic-haircut.svg" alt="Classic haircut result" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Classic haircut" data-caption="Sharp, classic cut with a polished finish." />
+                <figcaption>Classic haircut</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="haircuts">
+              <figure>
+                <img src="assets/images/gallery/modern-fade.svg" alt="Modern fade haircut" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Modern fade" data-caption="A clean fade with a tailored finish." />
+                <figcaption>Modern fade</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="haircuts">
+              <figure>
+                <img src="assets/images/gallery/styling-transformation.svg" alt="Hair styling transformation" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Styling transformation" data-caption="A complete refresh for a fresh everyday look." />
+                <figcaption>Styling transformation</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="haircuts">
+              <figure>
+                <img src="assets/images/gallery/beard-grooming.svg" alt="Beard grooming" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Beard grooming" data-caption="Clean lines and trim details for a sharp finish." />
+                <figcaption>Beard grooming</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="pet-grooming">
+              <figure>
+                <img src="assets/images/gallery/freshly-groomed-dog.svg" alt="Freshly groomed dog" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Freshly groomed dog" data-caption="A full groom that leaves pets comfortable and tidy." />
+                <figcaption>Freshly groomed dog</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="pet-grooming">
+              <figure>
+                <img src="assets/images/gallery/bath-and-brush.svg" alt="Bath and brush result" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Bath and brush" data-caption="Fresh coats and a neat finish for active pets." />
+                <figcaption>Bath and brush</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="pet-grooming">
+              <figure>
+                <img src="assets/images/gallery/breed-styling.svg" alt="Breed-specific pet grooming style" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Breed-specific styling" data-caption="A tailored groom to match coat type and personality." />
+                <figcaption>Breed-specific styling</figcaption>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3 gallery-item" data-category="pet-grooming">
+              <figure>
+                <img src="assets/images/gallery/puppy-grooming.svg" alt="Puppy grooming session" loading="lazy" data-bs-toggle="modal" data-bs-target="#galleryModal" data-title="Puppy grooming" data-caption="A gentle, low-stress introduction to grooming." />
+                <figcaption>Puppy grooming</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="comparison-showcase section-shell reveal">
+        <div class="container">
+          <div class="section-heading text-center">
+            <p class="eyebrow">Before & after</p>
+            <h2>See the difference a fresh finish can make.</h2>
+          </div>
+
+          <div class="comparison-slider-wrap" data-before-after>
+            <div class="comparison-slider" aria-label="Before and after hair styling comparison slider">
+              <img src="assets/images/gallery/before-style.svg" alt="Before styling" class="comparison-image comparison-before" />
+              <div class="comparison-overlay" aria-hidden="true">
+                <img src="assets/images/gallery/after-style.svg" alt="After styling" class="comparison-image comparison-after" />
+              </div>
+              <div class="comparison-handle" aria-hidden="true"><span></span></div>
+            </div>
+            <label for="beforeAfterRange" class="sr-only">Reveal before and after styling</label>
+            <input id="beforeAfterRange" type="range" min="0" max="100" value="50" aria-label="Reveal before and after styling" />
+          </div>
+        </div>
+      </div>
+
+      <section id="team" class="team-section section-shell">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Our team</p>
+            <h2>Meet the People Behind the Magic.</h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="team-card h-100">
+                <img src="assets/images/team-stylist.svg" alt="Portrait placeholder for hair stylist" loading="lazy" />
+                <div class="team-body">
+                  <h3>Amelia Hart</h3>
+                  <span>Hair Stylist</span>
+                  <p>Specializes in fresh cuts, soft styling, and polished finishing details.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="team-card h-100">
+                <img src="assets/images/team-barber.svg" alt="Portrait placeholder for barber" loading="lazy" />
+                <div class="team-body">
+                  <h3>Noah Brooks</h3>
+                  <span>Barber</span>
+                  <p>Known for detail-focused fades, clean lines, and modern styling.</p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 reveal">
+              <article class="team-card h-100">
+                <img src="assets/images/team-pet.svg" alt="Portrait placeholder for pet groomer" loading="lazy" />
+                <div class="team-body">
+                  <h3>Sophia Reed</h3>
+                  <span>Pet Groomer</span>
+                  <p>Focuses on calm, gentle grooming experiences for pets of every size.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews-section section-shell alt-bg">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Kind words</p>
+            <h2>Kind Words from Happy Clients.</h2>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-lg-4 reveal">
+              <article class="testimonial-card h-100">
+                <div class="quote-mark">“</div>
+                <p>My haircut looked fresh, polished, and exactly like the style I wanted. The entire experience felt relaxed and personal.</p>
+                <div class="testimonial-meta">
+                  <strong>Leah M.</strong>
+                  <span>Haircut Client</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 reveal">
+              <article class="testimonial-card h-100">
+                <div class="quote-mark">“</div>
+                <p>Our dog came home calm, clean, and happy. The team was kind, patient, and clearly thoughtful with every step.</p>
+                <div class="testimonial-meta">
+                  <strong>Jordan T.</strong>
+                  <span>Pet Grooming Client</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4 reveal">
+              <article class="testimonial-card h-100">
+                <div class="quote-mark">“</div>
+                <p>The studio feels premium without being intimidating. The service is warm and professional, and the details really stand out.</p>
+                <div class="testimonial-meta">
+                  <strong>Priya S.</strong>
+                  <span>Client & Pet Parent</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <p class="placeholder-note reveal">These testimonials are fictional placeholder reviews created for development. Replace or remove them before launch.</p>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section section-shell">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">FAQ</p>
+            <h2>A Few Things You Might Be Wondering.</h2>
+          </div>
+
+          <div class="accordion faq-accordion" id="faqAccordion">
+            <div class="accordion-item reveal">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="true">
+                  Do I need to book an appointment?
+                </button>
+              </h3>
+              <div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Appointments are recommended to ensure you receive the time and attention you want.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item reveal">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false">
+                  What should I bring to my first appointment?
+                </button>
+              </h3>
+              <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Bring any reference photos you like and let us know if you have a preferred style or grooming routine.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item reveal">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false">
+                  How long does a typical grooming session take?
+                </button>
+              </h3>
+              <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Timings vary by service and pet coat type. We will confirm a realistic estimate during booking.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item reveal">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false">
+                  Do you groom all dog breeds?
+                </button>
+              </h3>
+              <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  We work with many coat types and breeds, but the best approach depends on coat texture, temperament, and appointment needs.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item reveal">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false">
+                  Can I request a specific stylist or groomer?
+                </button>
+              </h3>
+              <div id="faq-5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Absolutely. Share your preference when booking and we will do our best to accommodate it.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item reveal">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-6" aria-expanded="false">
+                  How are grooming prices determined?
+                </button>
+              </h3>
+              <div id="faq-6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Prices can vary depending on coat condition, service scope, and pet size. Please treat listed examples as placeholders until verified.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="booking-section section-shell alt-bg">
+        <div class="container">
+          <div class="section-heading text-center reveal">
+            <p class="eyebrow">Booking</p>
+            <h2>Your Next Fresh Look Is One Click Away.</h2>
+            <p>Ready for a trim, a new style, or a grooming appointment for your pet? Get in touch and we'll help you with the next step.</p>
+          </div>
+
+          <div class="row g-4 mb-5">
+            <div class="col-md-6 reveal">
+              <div class="booking-option hair-option h-100">
+                <span class="option-icon"><i class="bi bi-scissors"></i></span>
+                <h3>Hair Appointment</h3>
+                <p>Fresh styling, quick trims, and personalized cuts for your next look.</p>
+                <button type="button" class="btn btn-primary booking-select" data-booking-type="Hair Appointment">Request Hair Appointment</button>
+              </div>
+            </div>
+
+            <div class="col-md-6 reveal">
+              <div class="booking-option pet-option h-100">
+                <span class="option-icon"><i class="bi bi-heart-pulse"></i></span>
+                <h3>Pet Grooming Appointment</h3>
+                <p>Comfort-first pet care tailored to your companion's coat and needs.</p>
+                <button type="button" class="btn btn-primary booking-select" data-booking-type="Pet Grooming Appointment">Request Pet Appointment</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="booking-form-wrap reveal">
+            <form class="booking-form" action="#" method="post">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="booking-name" class="form-label">Full Name</label>
+                  <input id="booking-name" name="fullName" type="text" class="form-control" autocomplete="name" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="booking-email" class="form-label">Email Address</label>
+                  <input id="booking-email" name="emailAddress" type="email" class="form-control" autocomplete="email" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="booking-phone" class="form-label">Phone Number</label>
+                  <input id="booking-phone" name="phoneNumber" type="tel" class="form-control" autocomplete="tel" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="booking-type" class="form-label">Appointment Type</label>
+                  <select id="booking-type" name="appointmentType" class="form-select" required>
+                    <option value="" selected disabled>Select a type</option>
+                    <option value="Hair Appointment">Hair Appointment</option>
+                    <option value="Pet Grooming Appointment">Pet Grooming Appointment</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label for="booking-service" class="form-label">Requested Service</label>
+                  <input id="booking-service" name="requestedService" type="text" class="form-control" placeholder="e.g. Classic Haircut or Full Grooming" />
+                </div>
+                <div class="col-md-3">
+                  <label for="booking-date" class="form-label">Preferred Date</label>
+                  <input id="booking-date" name="preferredDate" type="date" class="form-control" />
+                </div>
+                <div class="col-md-3">
+                  <label for="booking-time" class="form-label">Preferred Time</label>
+                  <input id="booking-time" name="preferredTime" type="time" class="form-control" />
+                </div>
+                <div class="col-12">
+                  <label for="booking-notes" class="form-label">Additional Notes</label>
+                  <textarea id="booking-notes" name="additionalNotes" class="form-control" rows="5" placeholder="Tell us about your preferred style, pet coat type, or any special needs."></textarea>
+                </div>
+                <div class="col-12 d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3">
+                  <button type="submit" class="btn btn-primary btn-lg">Send Request</button>
+                  <p class="form-message" id="booking-status" aria-live="polite">Online appointment requests are not enabled yet in this demo template.</p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-shell">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5 reveal">
+              <div class="contact-copy">
+                <p class="eyebrow">CONTACT</p>
+                <h2>Come Say Hello.</h2>
+                <ul class="contact-details">
+                  <li><i class="bi bi-telephone"></i><a href="tel:+12055550144">(205) 555-0144</a></li>
+                  <li><i class="bi bi-envelope"></i><a href="mailto:hello@groomingstudio.example">hello@groomingstudio.example</a></li>
+                  <li><i class="bi bi-geo-alt"></i>118 Willow Avenue, Suite 200, Springfield, IL</li>
+                  <li><i class="bi bi-clock"></i>Mon–Fri: 9:00 AM–6:00 PM • Sat: 9:00 AM–4:00 PM • Sun: Appointments by request</li>
+                </ul>
+                <div class="contact-actions">
+                  <a href="tel:+12055550144" class="btn btn-primary">Call Us</a>
+                  <a href="mailto:hello@groomingstudio.example" class="btn btn-secondary">Email Us</a>
+                  <a href="#" class="btn btn-link">Get Directions</a>
+                </div>
+                <div class="social-links" aria-label="Social media links">
+                  <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="#" aria-label="Pinterest"><i class="bi bi-pinterest"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7 reveal">
+              <div class="studio-visual">
+                <img src="assets/images/about-studio.svg" alt="Interior studio location placeholder" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="footer-brand">
+              <img src="assets/logos/logo.svg" alt="The Grooming Studio logo" class="footer-logo" />
+              <div>
+                <h3>The Grooming Studio</h3>
+                <p>Fresh Cuts. Happy Pets. Exceptional Care.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-lg-2">
+            <h4>Navigate</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-6 col-lg-3">
+            <h4>Popular Services</h4>
+            <ul class="footer-links">
+              <li><a href="#hair-services">Haircut Services</a></li>
+              <li><a href="#pet-services">Pet Grooming</a></li>
+              <li><a href="#booking">Appointments</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3">
+            <h4>Connect</h4>
+            <ul class="footer-links">
+              <li><a href="tel:+12055550144">(205) 555-0144</a></li>
+              <li><a href="mailto:hello@groomingstudio.example">hello@groomingstudio.example</a></li>
+              <li><a href="#">Privacy Policy (placeholder)</a></li>
+              <li><a href="#">Terms of Service (placeholder)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+          <p>© <span id="current-year">2026</span> The Grooming Studio. All rights reserved.</p>
+          <p class="mb-0">Placeholder legal links must be updated before launch.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" type="button" aria-label="Back to top">Top</button>
+
+    <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="galleryModalLabel">Gallery item</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="" alt="" class="modal-image" />
+            <p class="modal-caption"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
