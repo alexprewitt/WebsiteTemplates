@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Workspace update</title>
+  <desc id="desc">Professional workspace with desks, shelves, and polished details</desc>
+  <rect width="800" height="600" fill="#f5f7fa"/>
+  <rect x="90" y="160" width="620" height="300" rx="18" fill="#dfeaf3"/>
+  <rect x="160" y="230" width="200" height="110" rx="16" fill="#12365c" opacity="0.9"/>
+  <rect x="400" y="230" width="230" height="110" rx="16" fill="#f7efe3"/>
+  <rect x="220" y="340" width="360" height="70" rx="12" fill="#ffffff" opacity="0.8"/>
+  <circle cx="260" cy="195" r="42" fill="#d18f2d" opacity="0.9"/>
+  <circle cx="550" cy="195" r="42" fill="#12365c" opacity="0.7"/>
+</svg>

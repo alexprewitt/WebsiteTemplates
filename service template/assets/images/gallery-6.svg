@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Property details</title>
+  <desc id="desc">A before and after styled property improvement concept</desc>
+  <rect width="800" height="600" fill="#edf3f8"/>
+  <rect x="90" y="200" width="260" height="220" rx="16" fill="#dfeaf3"/>
+  <rect x="430" y="200" width="280" height="220" rx="16" fill="#f7efe3"/>
+  <rect x="150" y="260" width="130" height="120" rx="14" fill="#12365c" opacity="0.8"/>
+  <rect x="500" y="240" width="130" height="120" rx="14" fill="#d18f2d" opacity="0.9"/>
+  <path d="M370 230L430 210L470 250" stroke="#12365c" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M365 390L425 430L490 390" stroke="#12365c" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

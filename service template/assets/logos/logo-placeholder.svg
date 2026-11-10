@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Summit Local Services logo</title>
+  <desc id="desc">A geometric emblem with deep blue and gold accents</desc>
+  <rect width="180" height="180" rx="26" fill="#12365c"/>
+  <path d="M50 120L90 52L130 120H50Z" fill="#d18f2d" opacity="0.9"/>
+  <path d="M92 96L62 120H122L92 96Z" fill="#f7efe3" opacity="0.95"/>
+  <circle cx="90" cy="86" r="12" fill="#12365c"/>
+  <path d="M90 42V72" stroke="#12365c" stroke-width="8" stroke-linecap="round"/>
+</svg>

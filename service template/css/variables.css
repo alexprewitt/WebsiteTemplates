@@ -1,0 +1,30 @@
+:root {
+  --brand-primary: #12365c;
+  --brand-primary-dark: #0d2b4b;
+  --brand-secondary: #eaf0f5;
+  --brand-accent: #d18f2d;
+  --brand-accent-soft: #f7efe3;
+  --text-primary: #1a2735;
+  --text-secondary: #5c6776;
+  --background-primary: #ffffff;
+  --background-secondary: #f5f7fa;
+  --background-alt: #eef3f7;
+  --border-color: rgba(18, 54, 92, 0.12);
+  --shadow-soft: 0 12px 28px rgba(18, 54, 92, 0.12);
+  --shadow-card: 0 18px 38px rgba(18, 54, 92, 0.08);
+  --section-spacing: clamp(4rem, 7vw, 7rem);
+  --border-radius: 1rem;
+  --font-primary: "Segoe UI", Arial, Helvetica, sans-serif;
+  --font-display: "Segoe UI", Arial, Helvetica, sans-serif;
+  --bs-primary: var(--brand-primary);
+  --bs-primary-rgb: 18, 54, 92;
+  --bs-secondary: var(--brand-secondary);
+  --bs-secondary-rgb: 234, 240, 245;
+  --bs-body-color: var(--text-primary);
+  --bs-body-bg: var(--background-primary);
+  --bs-body-font-family: var(--font-primary);
+  --bs-link-color: var(--brand-primary);
+  --bs-border-color: var(--border-color);
+  --bs-border-radius: var(--border-radius);
+  --bs-btn-border-radius: 0.75rem;
+}
