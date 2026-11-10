@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact J&M Partners about a website project for your business." />
+  <meta name="theme-color" content="#f1e8dc" />
+  <title>Contact J&amp;M Partners</title>
+  <link rel="icon" type="image/png" href="image/jm-partners-logo.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="J&M Partners home"><img src="image/jm-partners-logo.png" alt="J&M Partners" /></a>
+    <details class="settings-menu">
+      <summary><span>Settings</span><span class="menu-arrow" aria-hidden="true">⌄</span></summary>
+      <div class="settings-panel">
+        <label class="theme-control" for="themeToggle"><span>Dark mode</span><input class="theme-switch" id="themeToggle" type="checkbox" role="switch" /></label>
+        <p class="settings-note">Switch between warm light and midnight blue.</p>
+      </div>
+    </details>
+  </header>
+
+  <main class="contact-main">
+    <div class="contact-heading">
+      <p class="eyebrow">Start a conversation</p>
+      <h1>Tell me about your project.</h1>
+      <p>Share what your business needs from its website. I’ll follow up by email.</p>
+    </div>
+
+    <div class="contact-grid">
+      <section class="contact-card" aria-labelledby="inquiry-title">
+        <h2 id="inquiry-title">Project inquiry</h2>
+        <form class="contact-form">
+          <label class="contact-field" for="name">Name <input id="name" name="name" autocomplete="name" required /></label>
+          <label class="contact-field" for="email">Email <input id="email" name="email" type="email" autocomplete="email" required /></label>
+          <label class="contact-field" for="phone">Phone number (optional) <input id="phone" name="phone" type="tel" autocomplete="tel" /></label>
+          <label class="contact-field" for="project">What would you like help with? <textarea id="project" name="project" required></textarea></label>
+          <p class="form-note">The form is drafted, but sending is not connected yet. I’ll enable it after the email delivery method is configured.</p>
+          <button class="submit-button" type="submit" disabled>Send inquiry</button>
+        </form>
+      </section>
+
+      <aside class="social-card" aria-labelledby="social-title">
+        <h2 id="social-title">Find J&amp;M Partners</h2>
+        <ul class="social-list">
+          <li><strong>Instagram</strong><span>Add profile later</span></li>
+          <li><strong>Facebook</strong><span>Add profile later</span></li>
+          <li><strong>LinkedIn</strong><span>Add profile later</span></li>
+        </ul>
+      </aside>
+    </div>
+
+    <a class="contact-back" href="index.html">← Back to J&amp;M Partners</a>
+  </main>
+
+  <footer class="site-footer">
+    <p>J&amp;M Partners</p>
+    <nav aria-label="Footer"><a href="index.html#process">Process</a><a href="index.html#pricing">Pricing</a><a href="index.html">Home</a></nav>
+  </footer>
+</body>
+</html>
