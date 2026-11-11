@@ -13,16 +13,35 @@
 <body>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="J&M Partners home"><img src="image/jm-partners-logo.png" alt="J&M Partners" /></a>
-    <details class="settings-menu">
-      <summary><span>Settings</span><span class="menu-arrow" aria-hidden="true">⌄</span></summary>
-      <div class="settings-panel">
-        <label class="theme-control" for="themeToggle"><span>Dark mode</span><input class="theme-switch" id="themeToggle" type="checkbox" role="switch" /></label>
-        <p class="settings-note">Switch between warm light and midnight blue.</p>
-      </div>
-    </details>
+
+    <div class="header-controls">
+      <button class="theme-button" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+        <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+        </svg>
+        <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M20.2 15.4A8.7 8.7 0 0 1 8.6 3.8 8.8 8.8 0 1 0 20.2 15.4Z"></path>
+        </svg>
+        <span class="visually-hidden">Switch color theme</span>
+      </button>
+
+      <details class="site-menu">
+        <summary class="menu-trigger">
+          <span>Menu</span>
+          <svg class="menu-chevron" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="m3 6 5 5 5-5"></path></svg>
+        </summary>
+        <nav class="menu-panel" aria-label="Main menu">
+          <a class="menu-link" href="index.html">Home</a>
+          <a class="menu-link" href="index.html#process">Process</a>
+          <a class="menu-link" href="index.html#pricing">Pricing</a>
+          <a class="menu-link" href="#top">Contact</a>
+        </nav>
+      </details>
+    </div>
   </header>
 
-  <main class="contact-main">
+  <main class="contact-main" id="top">
     <div class="contact-heading">
       <p class="eyebrow">Start a conversation</p>
       <h1>Tell me about your project.</h1>
