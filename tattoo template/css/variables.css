@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #111111;
+  --color-primary-soft: #1a1a1a;
+  --color-secondary: #1b1b1b;
+  --color-surface: #262626;
+  --color-surface-alt: #1d1d1d;
+  --color-text: #f4f0e8;
+  --color-text-muted: #a5a5a5;
+  --color-text-soft: #d7d2c7;
+  --color-accent: #8d3038;
+  --color-accent-soft: rgba(141, 48, 56, 0.18);
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-card: #171717;
+  --color-input: #141414;
+  --shadow-soft: 0 20px 40px rgba(0, 0, 0, 0.25);
+  --shadow-card: 0 14px 30px rgba(0, 0, 0, 0.2);
+  --section-spacing: 6rem;
+  --radius-xl: 26px;
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.35s ease;
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Inter", sans-serif;
+}
