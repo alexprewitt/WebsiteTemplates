@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
+  <title id="title">Styling transformation</title>
+  <desc id="desc">A full styling transformation</desc>
+  <rect width="700" height="520" fill="#F5F0EA"/>
+  <circle cx="350" cy="170" r="110" fill="#F1D3BA"/>
+  <path d="M240 430c38-112 91-166 184-166 65 0 119 22 170 85v135H240Z" fill="#A7B8A1"/>
+  <path d="M300 160c30-35 60-52 104-52 46 0 81 18 112 54l-30 34c-16-13-35-20-70-20-27 0-48 8-67 31l-49-47Z" fill="#252525"/>
+  <path d="M370 248c12 18 12 38 0 58-16 27-49 34-82 18l34 78h-54l-12-67c-27 5-48-15-48-45 0-30 23-55 53-57 26-2 62 6 89 15Z" fill="#F7F3ED" opacity="0.9"/>
+</svg>

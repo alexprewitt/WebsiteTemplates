@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" role="img" aria-labelledby="title desc">
+  <title id="title">Classic haircut</title>
+  <desc id="desc">A polished classic haircut result</desc>
+  <rect width="700" height="520" fill="#F4EFE9"/>
+  <circle cx="350" cy="172" r="100" fill="#F1D3BA"/>
+  <path d="M242 428c48-123 112-177 201-177 61 0 111 35 156 106v92H242Z" fill="#252525"/>
+  <path d="M260 196c38-47 66-65 104-65 48 0 91 29 116 73l-49 28c-22-17-42-25-73-25-26 0-45 10-64 23l-34-34Z" fill="#C47B61"/>
+</svg>

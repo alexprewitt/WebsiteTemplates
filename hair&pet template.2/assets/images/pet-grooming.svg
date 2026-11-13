@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="title desc">
+  <title id="title">Pet grooming service</title>
+  <desc id="desc">A friendly pet grooming portrait</desc>
+  <rect width="800" height="520" fill="#EEF2EC"/>
+  <ellipse cx="440" cy="318" rx="210" ry="120" fill="#A7B8A1"/>
+  <ellipse cx="320" cy="230" rx="88" ry="82" fill="#A7B8A1"/>
+  <circle cx="290" cy="228" r="12" fill="#252525"/>
+  <path d="M203 204c23-36 52-54 87-57 40-3 82 20 106 62-36 1-69 16-97 44-15-11-31-24-50-36-15-9-27-12-46-13Z" fill="#F7F3ED"/>
+  <path d="M463 214c19 8 32 21 42 36 20 30 20 63-5 100l-46 16-41-23c12-51 23-88 50-129Z" fill="#F7F3ED"/>
+  <circle cx="500" cy="230" r="12" fill="#252525"/>
+  <path d="M230 382c29 22 63 36 108 40 45 4 88-2 126-16l-12 71H165l65-95Z" fill="#D7C0A9"/>
+  <circle cx="598" cy="148" r="42" fill="#C47B61" opacity="0.8"/>
+</svg>
