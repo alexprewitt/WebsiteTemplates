@@ -396,7 +396,7 @@ h3 {
 .artist-card,
 .service-card,
 .testimonial-card,
-.booking-form,
+.consultation-wizard,
 .contact-grid {
   background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
   border: 1px solid var(--color-border);
@@ -645,7 +645,6 @@ h3 {
 .muted-copy,
 .accordion-body,
 .contact-grid,
-.contact-list,
 .booking-copy p {
   color: var(--color-text-soft);
 }
@@ -730,36 +729,32 @@ h3 {
   gap: 0.6rem;
 }
 
-.contact-list {
-  display: grid;
-  gap: 0.8rem;
-  margin-top: 1rem;
-}
-
-.contact-list div {
-  display: flex;
-  align-items: center;
-  gap: 0.7rem;
-}
-
-.contact-list i {
-  color: var(--color-accent);
-}
-
-.booking-form {
+.consultation-wizard {
   padding: 1.6rem;
 }
 
-.booking-form label {
-  display: block;
-  margin-bottom: 0.45rem;
-  font-weight: 600;
-  color: var(--color-text-soft);
+.consultation-step-count {
+  margin: 0 0 0.75rem;
+  color: var(--color-text-muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
-.booking-form input,
-.booking-form select,
-.booking-form textarea {
+.consultation-question label {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: var(--color-text);
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.consultation-question input,
+.consultation-question select,
+.consultation-question textarea {
   width: 100%;
   padding: 0.8rem 0.9rem;
   border: 1px solid var(--color-border);
@@ -768,21 +763,66 @@ h3 {
   color: var(--color-text);
 }
 
-.booking-form input::placeholder,
-.booking-form textarea::placeholder {
-  color: rgba(255,255,255,0.35);
+.consultation-question input::placeholder,
+.consultation-question textarea::placeholder {
+  color: rgba(255,255,255,0.45);
 }
 
-.form-actions {
+.consultation-question select option {
+  color: var(--color-text);
+  background: var(--color-primary);
+}
+
+.consultation-error {
+  min-height: 1.5em;
+  margin: 0.5rem 0 0;
+  color: #f9c7c7;
+}
+
+.consultation-progress {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  margin: 1.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.consultation-progress li {
+  display: flex;
+}
+
+.consultation-progress-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  background: var(--color-accent);
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.consultation-progress li.is-answered .consultation-progress-dot {
+  background: #4eaa72;
+}
+
+.consultation-progress li.is-current .consultation-progress-dot {
+  transform: scale(1.25);
+}
+
+.consultation-actions {
+  display: flex;
+  justify-content: space-between;
   gap: 1rem;
 }
 
-.form-status {
-  margin: 0;
-  color: var(--color-text-soft);
+.consultation-actions .btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.consultation-complete {
+  margin: 1rem 0 0;
+  color: #b7e4c7;
+  text-align: center;
 }
 
 .contact-grid {
@@ -941,7 +981,6 @@ h3 {
   }
 
   .hero-actions,
-  .form-actions,
   .artist-actions,
   .footer-inner {
     flex-direction: column;
