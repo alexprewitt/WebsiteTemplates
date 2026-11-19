@@ -36,13 +36,13 @@ window.chatbotKnowledge = {
       bio: "Sierra blends realism, organic detail, and narrative composition to create personal and layered artworks."
     }
   },
-  pricing: "Tattoo pricing depends on the design, size, complexity, placement, and artist's schedule. The best way to get accurate guidance is to start with a consultation request.",
-  consultation: "To start a consultation, share your idea, preferred style, placement, approximate size, and any reference imagery through the consultation form or by contacting the studio directly.",
+  pricing: "Tattoo pricing depends on the design, size, complexity, placement, and artist's schedule. Call the studio to discuss your idea and get accurate guidance during a consultation.",
+  consultation: "To start a consultation, have your idea, preferred style, placement, approximate size, and any reference imagery ready, then call the studio at (555) 014-4762.",
   aftercare: "Follow the artist's written aftercare instructions. Keep the tattoo clean, avoid unnecessary irritation, and seek a qualified medical professional if you notice concerning symptoms.",
-  contact: "You can contact the studio by phone at (555) 014-4762, by email at hello@blackthorntattoo.com, or by using the consultation request form on this page.",
+  contact: "You can contact the studio by phone at (555) 014-4762 or by email at hello@blackthorntattoo.com.",
   location: "Blackthorn Tattoo Co. is located at 145 Quarry Lane, Studio 3, Portland, OR.",
   policies: {
-    walkIns: "Walk-ins depend on studio schedule and artist availability. A consultation request is the most reliable way to confirm current openings.",
+    walkIns: "Walk-ins depend on studio schedule and artist availability. Call the studio to confirm current openings.",
     deposit: "Deposit requirements vary by artist and project. The studio can confirm the relevant details during consultation.",
     age: "Age requirements should match applicable local laws and the studio's verified policies."
   },

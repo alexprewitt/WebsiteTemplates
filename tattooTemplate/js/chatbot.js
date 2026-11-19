@@ -97,7 +97,7 @@ function initializeChatbot() {
   }
 
   function getFallbackResponse() {
-    return "I'm not sure I have the right information for that question. You can contact the studio directly or submit a consultation request.";
+    return "I'm not sure I have the right information for that question. Please call the studio using the phone number in the contact section.";
   }
 
   function findChatbotResponse(message) {
@@ -121,7 +121,7 @@ function initializeChatbot() {
     }
 
     if (lower.includes("book") || lower.includes("consult") || lower.includes("how do i book") || lower.includes("deposit") || lower.includes("reference image")) {
-      return knowledge.consultation || "Use the consultation form or contact the studio directly to begin the design process.";
+      return knowledge.consultation || "Have your design details ready, then call the studio to begin the consultation process.";
     }
 
     if (lower.includes("aftercare") || lower.includes("care") || lower.includes("heal")) {
@@ -156,7 +156,7 @@ function initializeChatbot() {
 
     if (lower.includes("book a consultation") || lower.includes("book consultation") || lower.includes("consultation")) {
       handleNavigation("booking");
-      return "I opened the consultation request form so you can submit your idea.";
+      return "I opened the consultation details. Have your design information ready, then call the studio using the phone number in the contact section.";
     }
 
     if (lower.includes("aftercare")) {
